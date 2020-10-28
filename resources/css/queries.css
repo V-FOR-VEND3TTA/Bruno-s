@@ -1,0 +1,37 @@
+/* The following rules will kick in at specified media query range */
+/* Small devices from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* All devices from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* All devices from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* All devices from 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;/* Create space between text and border of browser */
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
