@@ -1,5 +1,5 @@
 The structure of this project is as follows:
-Omnifood:
+Bruno's:
 	resources - css, js, images, and data folders
 	vendors - css, js and fonts folders 
 
